@@ -2,13 +2,12 @@ h2 {
   color: blue;
 }
 
-.boxmodel {
-  border: 5px solid red;
-  display: inline-block;
-  /* top right bottom left */
-  padding: 5px 20px 5px 20px;
-  /* top/bottom right/left */
-  margin: 0px 20px;
-  width: 33px;
-  height: 55px;
+p {
+  font-size: 20px;
+}
+
+/* em = x times the size of the containing element. (ex p font-size = 20 them 5em = 100px) */
+/* rem = times the documents size */
+span {
+  font-size: 2rem;
 }
